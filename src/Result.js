@@ -1,11 +1,12 @@
 import React from 'react'
 
-export default function Definitions(props) {
+export default function Results(props) {
     if (props.results) {
-        return 
+        return (
         <div className="Definitions">
-            Hey I am the result
+           <h2>{props.results.word}</h2>
         </div>
+        )
     } else {
         return null;
     }
