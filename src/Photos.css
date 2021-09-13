@@ -1,0 +1,7 @@
+.Photos {
+  display: flex;
+}
+
+.Photos img {
+  margin: 10px;
+}
